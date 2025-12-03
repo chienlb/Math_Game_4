@@ -1,0 +1,375 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Updated color palette for vibrant, kid-friendly theme */
+  --background: oklch(0.98 0.01 250);
+  --foreground: oklch(0.2 0.05 280);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.05 280);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.05 280);
+
+  /* Vibrant primary colors for games */
+  --primary: oklch(0.55 0.2 280);
+  --primary-foreground: oklch(0.98 0.01 250);
+  --secondary: oklch(0.65 0.18 20);
+  --secondary-foreground: oklch(0.98 0.01 250);
+  --muted: oklch(0.92 0.02 250);
+  --muted-foreground: oklch(0.5 0.05 280);
+  --accent: oklch(0.68 0.22 80);
+  --accent-foreground: oklch(0.98 0.01 250);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: oklch(0.92 0.01 250);
+  --input: oklch(0.95 0.01 250);
+  --ring: oklch(0.55 0.2 280);
+
+  /* Game-specific colors */
+  --game-blue: oklch(0.58 0.19 250);
+  --game-purple: oklch(0.55 0.2 280);
+  --game-pink: oklch(0.62 0.22 10);
+  --game-orange: oklch(0.65 0.18 40);
+  --game-green: oklch(0.62 0.18 140);
+
+  --chart-1: oklch(0.58 0.19 250);
+  --chart-2: oklch(0.62 0.22 10);
+  --chart-3: oklch(0.65 0.18 40);
+  --chart-4: oklch(0.68 0.22 80);
+  --chart-5: oklch(0.55 0.2 280);
+  --radius: 1rem;
+  --sidebar: oklch(0.98 0.01 250);
+  --sidebar-foreground: oklch(0.2 0.05 280);
+  --sidebar-primary: oklch(0.55 0.2 280);
+  --sidebar-primary-foreground: oklch(0.98 0.01 250);
+  --sidebar-accent: oklch(0.68 0.22 80);
+  --sidebar-accent-foreground: oklch(0.98 0.01 250);
+  --sidebar-border: oklch(0.92 0.01 250);
+  --sidebar-ring: oklch(0.55 0.2 280);
+}
+
+.dark {
+  --background: oklch(0.15 0.02 250);
+  --foreground: oklch(0.95 0.01 250);
+  --card: oklch(0.2 0.02 250);
+  --card-foreground: oklch(0.95 0.01 250);
+  --popover: oklch(0.2 0.02 250);
+  --popover-foreground: oklch(0.95 0.01 250);
+  --primary: oklch(0.75 0.2 280);
+  --primary-foreground: oklch(0.15 0.02 250);
+  --secondary: oklch(0.75 0.18 20);
+  --secondary-foreground: oklch(0.15 0.02 250);
+  --muted: oklch(0.3 0.02 250);
+  --muted-foreground: oklch(0.7 0.05 280);
+  --accent: oklch(0.78 0.22 80);
+  --accent-foreground: oklch(0.15 0.02 250);
+  --destructive: oklch(0.63 0.25 30);
+  --destructive-foreground: oklch(0.9 0.3 30);
+  --border: oklch(0.3 0.02 250);
+  --input: oklch(0.25 0.02 250);
+  --ring: oklch(0.75 0.2 280);
+  --sidebar: oklch(0.2 0.02 250);
+  --sidebar-foreground: oklch(0.95 0.01 250);
+  --sidebar-primary: oklch(0.75 0.2 280);
+  --sidebar-primary-foreground: oklch(0.15 0.02 250);
+  --sidebar-accent: oklch(0.78 0.22 80);
+  --sidebar-accent-foreground: oklch(0.15 0.02 250);
+  --sidebar-border: oklch(0.3 0.02 250);
+  --sidebar-ring: oklch(0.75 0.2 280);
+}
+
+@theme inline {
+  --font-sans: "Geist", "Geist Fallback";
+  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-game-blue: var(--game-blue);
+  --color-game-purple: var(--game-purple);
+  --color-game-pink: var(--game-pink);
+  --color-game-orange: var(--game-orange);
+  --color-game-green: var(--game-green);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 text-foreground;
+  }
+}
+
+/* Simplified 3D animations without invalid CSS */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes cardFlip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes threeDounce {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.7);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes scaleUpBounce {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(99, 102, 241, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
+  }
+}
+
+@keyframes numberPop {
+  0% {
+    transform: scale(0) rotateX(90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.animate-card-flip {
+  animation: cardFlip 3s ease-in-out infinite;
+}
+.animate-3d-bounce {
+  animation: threeDounce 2s ease-in-out infinite;
+}
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background-size: 1000px 100%;
+}
+.animate-scale-up {
+  animation: scaleUpBounce 0.6s ease-out;
+}
+.animate-glow-pulse {
+  animation: glowPulse 2s ease-in-out infinite;
+}
+.animate-number-pop {
+  animation: numberPop 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.depth-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.15), 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.depth-card-lg {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 10px 25px rgba(0, 0, 0, 0.2), 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.number-3d {
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1), 4px 4px 0 rgba(0, 0, 0, 0.05), 6px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Add advanced 3D transform animations and mouse tracking effects */
+@keyframes tiltCard {
+  0% {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(1000px) rotateX(5deg) rotateY(10deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+  }
+}
+
+@keyframes floatRotate {
+  0% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotateZ(5deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+}
+
+@keyframes staggerPop {
+  0% {
+    transform: scale(0) rotateX(90deg) rotateY(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotateX(0deg) rotateY(360deg);
+  }
+  100% {
+    transform: scale(1) rotateX(0deg) rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes deepGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3), 0 10px 30px rgba(59, 130, 246, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.6), 0 20px 50px rgba(59, 130, 246, 0.2);
+  }
+}
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%) rotateZ(-45deg) perspective(600px) rotateX(45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotateZ(0deg) perspective(600px) rotateX(0deg);
+  }
+}
+
+@keyframes flipInY {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateY(90deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px) rotateY(0deg);
+  }
+}
+
+.animate-tilt-card {
+  animation: tiltCard 3s ease-in-out infinite;
+}
+
+.animate-float-rotate {
+  animation: floatRotate 4s ease-in-out infinite;
+}
+
+.animate-stagger-pop {
+  animation: staggerPop 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.animate-deep-glow {
+  animation: deepGlow 2.5s ease-in-out infinite;
+}
+
+.animate-roll-in {
+  animation: rollIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.animate-flip-in-y {
+  animation: flipInY 0.6s ease-out;
+}
+
+.group:hover .group-hover\:3d-rotate {
+  transform: perspective(1200px) rotateX(8deg) rotateY(-8deg);
+  transition: transform 0.3s ease-out;
+}
