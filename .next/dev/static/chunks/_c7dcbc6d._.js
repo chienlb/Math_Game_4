@@ -814,12 +814,59 @@ function PatternGuesserPage() {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-2xl mx-auto",
                 children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>setGameStarted(false),
+                        className: " group mb-8 px-7 py-3 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full font-bold text-base text-gray-800 flex items-center gap-3 shadow-2xl border-none transition-all duration-200 hover:text-blue-600 hover:shadow-purple-200 hover:scale-105 backdrop-blur relative before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r before:from-blue-200 before:to-purple-100 before:opacity-0 group-hover:before:opacity-40 before:transition-opacity before:duration-300 overflow-hidden ",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-300 to-purple-300 text-white shadow-md ring-2 ring-white mr-2 transition group-hover:-translate-x-1",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    width: "26",
+                                    height: "26",
+                                    fill: "none",
+                                    viewBox: "0 0 24 24",
+                                    stroke: "currentColor",
+                                    className: "mx-auto",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                        strokeLinecap: "round",
+                                        strokeLinejoin: "round",
+                                        strokeWidth: "2",
+                                        d: "M15.75 19.75L8.25 12l7.5-7.75"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/pattern-guesser/page.tsx",
+                                        lineNumber: 44,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/pattern-guesser/page.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/app/pattern-guesser/page.tsx",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "tracking-tight text-lg",
+                                children: "Quay lại"
+                            }, void 0, false, {
+                                fileName: "[project]/app/pattern-guesser/page.tsx",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/pattern-guesser/page.tsx",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$pattern$2d$guesser$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         onScoreChange: setScore,
                         onQuestionChange: setCurrentQuestion
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 18,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$game$2d$guide$2d$bot$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -828,7 +875,7 @@ function PatternGuesserPage() {
                         totalQuestions: 5
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 19,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, this)
                 ]
@@ -855,15 +902,15 @@ function PatternGuesserPage() {
                         children: "🔢"
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 29,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-4",
-                        children: "Tìm Quy Luật"
+                        children: "Thám tử Quy Luật"
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 30,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -871,7 +918,7 @@ function PatternGuesserPage() {
                         children: "Khám phá các quy luật ẩn trong dãy số! Quan sát kỹ lưỡng, tìm ra quy luật và trả lời đúng câu hỏi. Mỗi quy luật khác nhau đều là một thử thách thú vị."
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 33,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -885,7 +932,7 @@ function PatternGuesserPage() {
                                         children: "🎯"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -893,7 +940,7 @@ function PatternGuesserPage() {
                                         children: "5 Câu Hỏi"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 72,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -901,13 +948,13 @@ function PatternGuesserPage() {
                                         children: "Từ dễ đến khó, kiểm tra kỹ năng của bạn"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/pattern-guesser/page.tsx",
-                                lineNumber: 39,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -918,7 +965,7 @@ function PatternGuesserPage() {
                                         children: "🧠"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -926,7 +973,7 @@ function PatternGuesserPage() {
                                         children: "Rèn Luyện Logic"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -934,13 +981,13 @@ function PatternGuesserPage() {
                                         children: "Phát triển kỹ năng suy luận toán học"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 78,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/pattern-guesser/page.tsx",
-                                lineNumber: 44,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -951,7 +998,7 @@ function PatternGuesserPage() {
                                         children: "⭐"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 81,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -959,7 +1006,7 @@ function PatternGuesserPage() {
                                         children: "Kiếm Điểm"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 82,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -967,19 +1014,19 @@ function PatternGuesserPage() {
                                         children: "Thách thức bạn bè với điểm số cao nhất"
                                     }, void 0, false, {
                                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                                        lineNumber: 52,
+                                        lineNumber: 83,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/pattern-guesser/page.tsx",
-                                lineNumber: 49,
+                                lineNumber: 80,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 38,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -988,23 +1035,23 @@ function PatternGuesserPage() {
                         children: "🎮 Bắt Đầu Chơi"
                     }, void 0, false, {
                         fileName: "[project]/app/pattern-guesser/page.tsx",
-                        lineNumber: 56,
+                        lineNumber: 87,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/pattern-guesser/page.tsx",
-                lineNumber: 28,
+                lineNumber: 59,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/pattern-guesser/page.tsx",
-            lineNumber: 27,
+            lineNumber: 58,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/pattern-guesser/page.tsx",
-        lineNumber: 26,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }

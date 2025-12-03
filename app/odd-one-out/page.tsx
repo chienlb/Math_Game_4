@@ -15,6 +15,37 @@ export default function OddOneOutPage() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-100 to-yellow-100 p-4">
         <div className="max-w-2xl mx-auto">
+          {/* Nút quay lại game */}
+          <button
+            onClick={() => setGameStarted(false)}
+            className="
+              group
+              mb-8 px-7 py-3
+              bg-white bg-opacity-80 hover:bg-opacity-100
+              rounded-full
+              font-bold 
+              text-base 
+              text-gray-800
+              flex items-center gap-3
+              shadow-2xl border-none
+              transition-all duration-200 
+              hover:text-pink-600
+              hover:shadow-orange-200
+              hover:scale-105
+              backdrop-blur
+              relative
+              before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r before:from-orange-200 before:to-pink-100 before:opacity-0 group-hover:before:opacity-40 before:transition-opacity before:duration-300
+              overflow-hidden
+            "
+          >
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-orange-300 to-pink-300 text-white shadow-md ring-2 ring-white mr-2 transition group-hover:-translate-x-1">
+              {/* Left arrow icon (heroicons) */}
+              <svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="mx-auto">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.75 19.75L8.25 12l7.5-7.75" />
+              </svg>
+            </span>
+            <span className="tracking-tight text-lg">Quay lại</span>
+          </button>
           <OddOneOut onScoreChange={setScore} onQuestionChange={setCurrentQuestion} />
           <GameGuideBot gameType="odd-one-out" currentQuestion={currentQuestion} totalQuestions={6} />
         </div>

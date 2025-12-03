@@ -15,6 +15,37 @@ export default function PatternGuesserPage() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 p-4">
         <div className="max-w-2xl mx-auto">
+          {/* Nút quay lại game */}
+          <button
+            onClick={() => setGameStarted(false)}
+            className="
+              group
+              mb-8 px-7 py-3
+              bg-white bg-opacity-80 hover:bg-opacity-100
+              rounded-full
+              font-bold
+              text-base
+              text-gray-800
+              flex items-center gap-3
+              shadow-2xl border-none
+              transition-all duration-200
+              hover:text-blue-600
+              hover:shadow-purple-200
+              hover:scale-105
+              backdrop-blur
+              relative
+              before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-r before:from-blue-200 before:to-purple-100 before:opacity-0 group-hover:before:opacity-40 before:transition-opacity before:duration-300
+              overflow-hidden
+            "
+          >
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-300 to-purple-300 text-white shadow-md ring-2 ring-white mr-2 transition group-hover:-translate-x-1">
+              {/* Left arrow icon (heroicons) */}
+              <svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="mx-auto">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.75 19.75L8.25 12l7.5-7.75" />
+              </svg>
+            </span>
+            <span className="tracking-tight text-lg">Quay lại</span>
+          </button>
           <PatternGuesser onScoreChange={setScore} onQuestionChange={setCurrentQuestion} />
           <GameGuideBot gameType="pattern-guesser" currentQuestion={currentQuestion} totalQuestions={5} />
         </div>
@@ -28,7 +59,7 @@ export default function PatternGuesserPage() {
         <div className="text-center mb-12">
           <div className="text-6xl mb-6 animate-bounce">🔢</div>
           <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-4">
-            Tìm Quy Luật
+            Thám tử Quy Luật
           </h1>
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
             Khám phá các quy luật ẩn trong dãy số! Quan sát kỹ lưỡng, tìm ra quy luật và trả lời đúng câu hỏi. Mỗi quy
