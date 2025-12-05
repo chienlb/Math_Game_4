@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/missing-number/guide/page": "app/missing-number/guide/page.js",
+  "/missing-number/page": "app/missing-number/page.js",
+  "/next-number/guide/page": "app/next-number/guide/page.js",
+  "/next-number/page": "app/next-number/page.js",
+  "/page": "app/page.js",
+  "/sort-sequence/guide/page": "app/sort-sequence/guide/page.js",
+  "/sort-sequence/page": "app/sort-sequence/page.js"
+}

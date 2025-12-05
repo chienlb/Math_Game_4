@@ -1,0 +1,410 @@
+[00:00:01.976] Server  LOG      ✓ Ready in 1353ms
+[00:00:49.358] Server  LOG      ○ Compiling / ...
+[00:00:55.425] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:59.307] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:59.307] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:59.307] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764922047764}
+[00:01:17.159] Server  LOG      ○ Compiling /next-number/guide ...
+[00:01:19.883] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764922068890}
+[00:06:59.519] Server  LOG      ✓ Compiled in 1191ms
+[00:13:32.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:33.300] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:33.300] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/next-number/guide","route":"/next-number/guide"}
+[00:13:33.300] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764922802694}
+[00:15:49.704] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:51.312] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:51.312] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/next-number/guide","route":"/next-number/guide"}
+[00:15:51.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764922940089}
+[00:22:00.330] Server  LOG      ✓ Compiled in 921ms
+[00:27:45.914] Server  LOG      ✓ Compiled in 1926ms
+[00:27:51.413] Server  LOG      ✓ Compiled in 2.9s
+[00:27:52.706] Server  LOG      ✓ Compiled in 876ms
+[00:27:56.237] Server  LOG      ✓ Compiled in 909ms
+[00:27:59.208] Server  LOG      ✓ Compiled in 1047ms
+[00:28:11.623] Server  LOG      ✓ Compiled in 692ms
+[00:28:15.576] Server  LOG      ✓ Compiled in 582ms
+[00:28:20.544] Server  LOG      ✓ Compiled in 728ms
+[00:28:23.374] Server  LOG      ✓ Compiled in 817ms
+[00:28:47.836] Server  LOG      ✓ Compiled in 819ms
+[00:29:02.497] Server  LOG      ✓ Compiled in 960ms
+[00:29:23.080] Server  LOG      ✓ Compiled in 916ms
+[00:29:40.536] Server  LOG      ✓ Compiled in 920ms
+[00:29:55.669] Server  LOG      ✓ Compiled in 1080ms
+[00:29:58.540] Server  LOG      ✓ Compiled in 699ms
+[00:30:01.171] Server  LOG      ✓ Compiled in 450ms
+[00:30:06.206] Server  LOG      ✓ Compiled in 701ms
+[00:30:21.249] Server  LOG      ✓ Compiled in 477ms
+[00:30:33.764] Server  LOG      ✓ Compiled in 844ms
+[00:30:41.944] Server  LOG      ✓ Compiled in 239ms
+[00:30:44.778] Server  LOG      ✓ Compiled in 260ms
+[00:30:44.931] Server  ERROR   (node:18352) Warning: Failed to load the ES module: C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\[root-of-the-server]__c6535d59._.js. Make sure to set "type": "module" in the nearest package.json file or use the .mjs extension.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[00:30:44.967] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:44.977] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:44.981] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\require.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:44.983] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\load-components.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.000] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.003] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.017] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.031] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.035] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.044] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.048] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.104] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\[root-of-the-server]__c6535d59._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.134] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.152] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.165] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\require.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.186] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\load-components.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.202] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.216] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.234] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.295] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.333] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.344] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.391] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:30:45.436] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__c6535d59._.js from runtime for chunk server/app/next-number/guide/page.js
+[00:30:48.083] Server  LOG      ✓ Compiled in 3s
+[00:30:48.469] Server  LOG      ○ Compiling /_error ...
+[00:30:53.830] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:57.318] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:30:57.318] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/next-number/guide","route":"/next-number/guide"}
+[00:30:57.318] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764923846013}
+[00:30:59.050] Server  LOG      ✓ Compiled in 776ms
+[00:31:00.508] Server  LOG      ✓ Compiled in 549ms
+[00:31:04.285] Server  LOG      ✓ Compiled in 602ms
+[00:31:11.159] Server  LOG      ✓ Compiled in 1495ms
+[00:31:35.816] Server  LOG      ✓ Compiled in 1168ms
+[00:32:04.094] Server  LOG      ✓ Compiled in 1253ms
+[00:32:13.199] Server  LOG      ✓ Compiled in 1331ms
+[00:32:19.161] Server  LOG      ✓ Compiled in 864ms
+[00:32:43.480] Server  LOG      ✓ Compiled in 718ms
+[00:32:50.781] Server  LOG      ✓ Compiled in 1395ms
+[00:32:56.979] Server  LOG      ✓ Compiled in 1299ms
+[00:33:01.738] Server  LOG      ✓ Compiled in 1458ms
+[00:33:05.515] Server  LOG      ✓ Compiled in 1556ms
+[00:33:11.199] Server  LOG      ✓ Compiled in 1242ms
+[00:33:53.584] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924022379}
+[00:33:59.779] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sort-sequence/guide color: rgb(120, 120, 120) color: inherit {"dp":"/sort-sequence/guide","o":"http://localhost:3000/sort-sequence/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924029197}
+[00:36:39.844] Server  LOG      ✓ Compiled in 1075ms
+[00:36:58.707] Server  LOG      ✓ Compiled in 688ms
+[00:36:59.950] Server  LOG      ✓ Compiled in 171ms
+[00:37:22.648] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924230845}
+[00:37:24.613] Browser LOG     Clicked on Mars
+[00:37:27.433] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/missing-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/missing-number/guide","o":"http://localhost:3000/missing-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924236132}
+[00:37:34.079] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:37:36.997] Server  LOG      ✓ Compiled in 315ms
+[00:37:37.101] Browser ERROR   ./app/sort-sequence/guide/page.tsx:160:7
+Parsing ecmascript source code failed
+  158 |         </div>
+  159 |       </main>
+> 160 |     </>
+      |       ^
+  161 |   )
+  162 | }
+  163 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/sort-sequence/guide/page.tsx [Client Component Browser]
+    ./app/sort-sequence/guide/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/sort-sequence/guide/page.tsx [Client Component SSR]
+    ./app/sort-sequence/guide/page.tsx [Server Component]
+[00:37:37.493] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:37:38.176] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5b90527c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:37:38.179] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:37:38.239] Server  LOG      ✓ Compiled in 282ms
+[00:37:38.253] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:37:39.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:39.367] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:17.976] Server  LOG      ✓ Compiled in 499ms
+[00:39:17.990] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:20.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:20.043] Server  LOG      ✓ Compiled in 355ms
+[00:39:21.380] Server  LOG      ✓ Compiled in 290ms
+[00:39:23.077] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="missing-nu..." loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/missing-n..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="missing-nu...">
+                        <SegmentTrieNode>
+                        <ClientPageRoot Component={function MissingNumberPage} serverProvidedParams={{...}}>
+                          <MissingNumberPage params={Promise} searchParams={Promise}>
+                            <SolarSystemBackground>
+                              <div
+                                ref={{current:null}}
+                                className="fixed inset-0 -z-20"
+-                               bis_skin_checked="1"
+                              >
+                            <div
+                              className="relative z-10 w-full h-screen overflow-hidden"
+-                             bis_skin_checked="1"
+                            >
+                              <MissingNumberGame onBack={function handleBack} guidePath="/missing-n...">
+                                <div
+                                  className="relative w-full h-full flex items-center justify-center"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="text-white text-xl"
+-                                   bis_skin_checked="1"
+                                  >
++                                   Đang tải...
+                      ...
+                    ...
+          ...
+
+[00:39:24.308] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:24.308] Browser ERROR   Error fetching pattern guesser questions: {}
+[00:39:36.517] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:36.523] Server  LOG      ✓ Compiled in 460ms
+[00:39:37.791] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5b90527c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:39:37.795] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:37.884] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:38.736] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:39.494] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:53.433] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:53.437] Server  LOG      ✓ Compiled in 408ms
+[00:39:54.570] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5b90527c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:39:54.572] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:39:55.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:56.340] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:40:34.884] Server  LOG      ✓ Compiled in 774ms
+[00:40:34.955] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:40:37.111] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:40.773] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="missing-nu..." loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/missing-n..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="missing-nu...">
+                        <SegmentTrieNode>
+                        <ClientPageRoot Component={function MissingNumberPage} serverProvidedParams={{...}}>
+                          <MissingNumberPage params={Promise} searchParams={Promise}>
+                            <SolarSystemBackground>
+                              <div
+                                ref={{current:null}}
+                                className="fixed inset-0 -z-20"
+-                               bis_skin_checked="1"
+                              >
+                            <div
+                              className="relative z-10 w-full h-screen overflow-hidden"
+-                             bis_skin_checked="1"
+                            >
+                              <MissingNumberGame onBack={function handleBack} guidePath="/missing-n...">
+                                <div
+                                  className="relative w-full h-full flex items-center justify-center"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="text-white text-xl"
+-                                   bis_skin_checked="1"
+                                  >
++                                   Đang tải...
+                      ...
+                    ...
+          ...
+
+[00:40:41.311] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:41.311] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/missing-number","route":"/missing-number"}
+[00:40:41.311] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/missing-number color: rgb(120, 120, 120) color: inherit {"dp":"/missing-number","o":"http://localhost:3000/missing-number","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924430266}
+[00:40:41.311] Browser ERROR   Error fetching pattern guesser questions: {}
+[00:41:09.853] Server  LOG      ✓ Compiled in 688ms
+[00:41:43.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:44.589] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:41:44.590] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/missing-number/guide","route":"/missing-number/guide"}
+[00:41:44.590] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/missing-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/missing-number/guide","o":"http://localhost:3000/missing-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924494013}
+[00:41:51.702] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924500803}
+[00:41:55.728] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924504593}
+[00:42:02.433] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:06.662] Server  LOG      ✓ Compiled in 466ms
+[00:43:06.682] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:08.022] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5666940f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:08.024] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:09.341] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:10.378] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:17.620] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:17.624] Server  LOG      ✓ Compiled in 548ms
+[00:43:18.892] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5666940f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:18.894] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:19.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:20.344] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:20.572] Server  LOG      ✓ Compiled in 370ms
+[00:43:20.759] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:22.262] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_5666940f._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:43:22.264] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:22.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:24.310] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sequence')
+[00:43:26.673] Server  LOG      ✓ Compiled in 572ms
+[00:43:26.704] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:43:29.308] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:35.287] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:35.287] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/next-number","route":"/next-number"}
+[00:43:35.287] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number color: rgb(120, 120, 120) color: inherit {"dp":"/next-number","o":"http://localhost:3000/next-number","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924602630}
+[00:43:35.287] Browser ERROR   Error fetching number sequence questions: {}
+[00:43:39.331] Server  LOG      ✓ Compiled in 551ms
+[00:43:41.642] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [0, [object Object],[object Object],[object Object], [object Object]] [0, , false, 0, false, [object Object],[object Object],[object Object]]
+[00:44:04.027] Server  LOG      ✓ Compiled in 859ms
+[00:44:16.087] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924644876}
+[00:44:19.641] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sort-sequence/guide color: rgb(120, 120, 120) color: inherit {"dp":"/sort-sequence/guide","o":"http://localhost:3000/sort-sequence/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924649053}
+[00:44:25.681] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:21.346] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:21.359] Server  LOG      ✓ Compiled in 181ms
+[00:46:21.679] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_fe0e9fe6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:46:21.680] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:22.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:24.347] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:25.466] Server  LOG      ✓ Compiled in 196ms
+[00:46:25.491] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:26.017] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_fe0e9fe6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:46:26.019] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:26.450] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:27.327] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:51.061] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:51.077] Server  LOG      ✓ Compiled in 143ms
+[00:46:51.592] Server  ERROR   C:\Users\jbabr\Downloads\math-games-for-kids (1)\.next\dev\server\chunks\ssr\_fe0e9fe6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:46:51.593] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:52.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:53.314] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'numbers')
+[00:46:57.195] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:46:57.207] Server  LOG      ✓ Compiled in 192ms
+[00:46:58.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:01.319] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:01.319] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sort-sequence","route":"/sort-sequence"}
+[00:47:01.320] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sort-sequence color: rgb(120, 120, 120) color: inherit {"dp":"/sort-sequence","o":"http://localhost:3000/sort-sequence","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924809820}
+[00:47:01.320] Browser ERROR   Error fetching odd one out questions: {}
+[00:47:22.390] Server  LOG      ✓ Compiled in 143ms
+[00:47:24.196] Server  LOG      ✓ Compiled in 118ms
+[00:47:24.306] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [0, , false, 0] [0, , false, 0, false, [object Object],[object Object],[object Object]]
+[00:47:41.611] Server  LOG      ✓ Compiled in 191ms
+[00:48:10.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:11.042] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:48:11.042] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/sort-sequence/guide","route":"/sort-sequence/guide"}
+[00:48:11.042] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/sort-sequence/guide color: rgb(120, 120, 120) color: inherit {"dp":"/sort-sequence/guide","o":"http://localhost:3000/sort-sequence/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924880468}
+[00:48:19.045] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924888012}
+[00:48:21.290] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/next-number/guide color: rgb(120, 120, 120) color: inherit {"dp":"/next-number/guide","o":"http://localhost:3000/next-number/guide","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764924889986}
+[00:50:20.241] Server  LOG      ✓ Compiled in 338ms
+[00:50:23.509] Server  LOG      ✓ Compiled in 301ms
+[00:50:42.564] Server  LOG      ✓ Compiled in 153ms
+[00:51:38.715] Server  LOG      ✓ Compiled in 155ms
+[00:53:54.997] Server  LOG      ✓ Compiled in 291ms
+[00:54:02.887] Server  LOG      ✓ Compiled in 958ms
+[00:54:09.814] Server  LOG      ✓ Compiled in 792ms
+[00:54:33.634] Server  LOG      ✓ Compiled in 421ms
+[00:54:34.319] Browser ERROR   ./app/next-number/guide/page.tsx:143:7
+Parsing ecmascript source code failed
+  141 |         </main>
+  142 |       </div>
+> 143 |     </>
+      |       ^
+  144 |   )
+  145 | }
+  146 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/next-number/guide/page.tsx [Client Component Browser]
+    ./app/next-number/guide/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/next-number/guide/page.tsx [Client Component SSR]
+    ./app/next-number/guide/page.tsx [Server Component]
+[00:54:35.319] Server  LOG      ✓ Compiled in 423ms
+[00:54:39.310] Browser ERROR   ./app/missing-number/guide/page.tsx:143:7
+Parsing ecmascript source code failed
+  141 |         </main>
+  142 |       </div>
+> 143 |     </>
+      |       ^
+  144 |   )
+  145 | }
+  146 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/missing-number/guide/page.tsx [Client Component Browser]
+    ./app/missing-number/guide/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/missing-number/guide/page.tsx [Client Component SSR]
+    ./app/missing-number/guide/page.tsx [Server Component]
+[00:54:39.432] Server  LOG      ✓ Compiled in 351ms
+[00:54:40.284] Server  LOG      ✓ Compiled in 313ms
+[00:54:41.332] Browser ERROR   ./app/sort-sequence/guide/page.tsx:162:7
+Parsing ecmascript source code failed
+  160 |         </main>
+  161 |       </div>
+> 162 |     </>
+      |       ^
+  163 |   )
+  164 | }
+  165 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/sort-sequence/guide/page.tsx [Client Component Browser]
+    ./app/sort-sequence/guide/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/sort-sequence/guide/page.tsx [Client Component SSR]
+    ./app/sort-sequence/guide/page.tsx [Server Component]
+[00:54:43.171] Server  LOG      ✓ Compiled in 345ms
+[00:54:57.071] Server  LOG      ✓ Compiled in 308ms
+[00:54:58.851] Server  LOG      ✓ Compiled in 390ms
+[00:55:20.066] Server  LOG      ✓ Compiled in 482ms
+[00:55:24.650] Server  LOG      ✓ Compiled in 446ms
+[00:57:47.108] Server  LOG      ✓ Compiled in 1896ms
+[00:57:52.193] Server  LOG      ✓ Compiled in 739ms
+[00:58:10.154] Server  LOG      ✓ Compiled in 315ms
+[00:58:12.984] Server  LOG      ✓ Compiled in 165ms
+[00:58:28.836] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764925497723}
